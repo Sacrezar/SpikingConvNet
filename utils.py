@@ -98,7 +98,7 @@ def load_MNIST(data_prop=1):
     """
     Load the MNIST dataset. 
     """
-    mndata = MNIST()
+    mndata = MNIST("MNIST")
     images, labels = mndata.load_training()
     
     # Training set
