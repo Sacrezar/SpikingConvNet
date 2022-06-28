@@ -1,4 +1,8 @@
+
+# Environment & VS CODE
 __pycache__
-*ubyte
 .env/
-MNIST/
+
+# MNIST DATASET
+*ubyte
+*ubyte.gz
