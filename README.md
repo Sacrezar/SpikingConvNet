@@ -1,14 +1,41 @@
 # SpikingConvNet
 
 Implementation of the paper *STDP-based spiking deep neural networks for object recognition*, for the MNIST classification task.
+```
+@article{KHERADPISHEH201856,
+title = {STDP-based spiking deep convolutional neural networks for object recognition},
+journal = {Neural Networks},
+volume = {99},
+pages = {56-67},
+year = {2018},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2017.12.005},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608017302903},
+author = {Saeed Reza Kheradpisheh and Mohammad Ganjtabesh and Simon J. Thorpe and Timothée Masquelier},
+keywords = {Spiking neural network, STDP, Deep learning, Object recognition, Temporal coding},
+}
+```
 
-## Results
+**This repository is a fork from [SpikingConvNet](https://github.com/ggoupy/SpikingConvNet)**
 
-The model achieves > 95% accuracy, better performance can (probably) be reached with parameter tuning.
+## Installation
 
-## MNIST Dataset
+- Download [MNIST Dataset](https://data.deepai.org/mnist.zip) and add it to MNIST folder after having uncompressed it. You should have files like `train-labels-idx1-ubyte`
 
-See https://pypi.org/project/python-mnist/ to download the dataset.
+- Create a virtual environment and install requirements:
+```sh
+# WINDOWS
+py -m pip virtualenv .env
+.env/Script/activate.ps1
+pip install -r requirements.txt
+
+# LINUX
+virtualenv .env
+source .env/bin/activate
+pip install -r requirements.txt
+```
+
+- Launch `snn.py`
 
 ## References:
 
