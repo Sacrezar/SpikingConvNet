@@ -3,6 +3,7 @@
 __pycache__
 .env/
 
-# MNIST DATASET
+# DATASET
 *ubyte
 *ubyte.gz
+aclImdb/
